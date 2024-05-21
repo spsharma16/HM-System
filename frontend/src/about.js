@@ -6,7 +6,7 @@ const About = () => {
       <div className="max-w-6xl bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <img
-            src="/images/Hospital.jpg"
+            src={`${process.env.PUBLIC_URL}/images/Hospital.jpg`}
             alt="Hospital"
             className="w-full h-full object-cover"
           />
@@ -26,3 +26,5 @@ const About = () => {
 };
 
 export default About;
+
+
