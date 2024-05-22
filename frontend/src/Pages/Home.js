@@ -15,7 +15,7 @@ const Home = () => {
         ></div>
         <div className="relative z-10 p-8 bg-white bg-opacity-75 md:w-1/2">
           <h1 className="text-2xl md:text-4xl font-bold text-blue-600 mb-4 text-center md:text-left">
-            Welcome to the Hospital Management System
+            Welcome to the CARE-Center
           </h1>
           <p className="text-base md:text-lg text-gray-700 mb-8 text-center md:text-left">
             Your health, our priority.

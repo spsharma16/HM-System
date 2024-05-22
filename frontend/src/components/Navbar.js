@@ -26,7 +26,7 @@ const Navbar = () => {
     <div className='container mx-auto flex justify-between items-center'>
      <div className='text-white text-lg font-bold'>
 
-        <Link to="/">Hospital Management</Link>
+        <Link to="/">CARE-Center</Link>
      </div>
      <div className='hidden md:flex space-x-4'>
         {!user && <Link to="/login" className="text-white">Login</Link>}
