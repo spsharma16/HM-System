@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.getItem('token')}`;
 
 export const loginUser = async (userData) => {
@@ -53,3 +53,4 @@ export const bookAppointment = (appointmentData) => axios.post(`${API_URL}/appoi
 export const getDashboardData = () =>axios.get(`${API_URL}/dashboard`);
 
 // export const updateUserProfile = (profileData) => axios.put(`${API_URL}/profile`, profileData); 
+ 
